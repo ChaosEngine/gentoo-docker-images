@@ -40,7 +40,9 @@ echo "Installing stage 3"
 
 # Cleaning
 cd /
-/newWorldOrder/busybox rm -rf /newWorldOrder /build.sh /linuxrc
+/newWorldOrder/busybox rm -rf /linuxrc
+/newWorldOrder/busybox rm -rf /newWorldOrder
+/newWorldOrder/busybox rm -rf /build.sh
 
 # Say hello
 echo "Bootstrapped ${stage3path} into /:"
